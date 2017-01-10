@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <title>2048</title>
+</head>
+
+<body>
+    <div id="game">
+        <h1 class="game-title">2048</h1>
+        <div class="size-game">
+            <input id="size" type="text" value='4'>
+            <input id="change-size-button" type="button" value="change">
+            <div class="score">
+                <div>Score</div>
+                <div class="score-desc">0</div>
+            </div>
+        </div>
+        <div id="canvas-wrap">
+            <div id="menu">
+                <h2 id="menu-title">Game over</h2>
+                <input type="button" class="main-button" id="start" value="restart">
+            </div>
+            <canvas id="canvas" width="500" height="500"></canvas>
+        </div>
+    </div>
+    <script type="text/javascript" src='js/bundle.js'>
+    </script>
+</body>
+
+</html>
